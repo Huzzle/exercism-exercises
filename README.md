@@ -1,0 +1,1 @@
+[Exercism](https://exercism.io) is platform with thousands of exercises spread across over 50 language tracks which helps to develop the programming skills through practice and mentorship.
