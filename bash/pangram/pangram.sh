@@ -9,8 +9,9 @@ for ch in {A..Z}; do
   letters[$ch]=$ch
 done
 
+declare -u ch
 for (( i = 0; i < length; i++ )); do
-  declare -u ch=${input:$i:1}
+  ch=${input:$i:1}
   if [[ "$ch" =~ [[:alpha:]] ]]; then
     unset letters["$ch"]
   fi
